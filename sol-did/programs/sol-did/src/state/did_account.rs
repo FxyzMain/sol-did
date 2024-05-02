@@ -5,6 +5,7 @@ use itertools::Itertools;
 use num_derive::*;
 use num_traits::*;
 use std::fmt::{Display, Formatter};
+use ::borsh::{BorshSerialize, BorshDeserialize};
 
 use crate::constants::VM_DEFAULT_FRAGMENT_NAME;
 use crate::utils::{

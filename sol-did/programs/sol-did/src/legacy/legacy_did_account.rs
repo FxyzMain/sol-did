@@ -3,7 +3,7 @@ use crate::state::{DidAccount, VerificationMethodFlags, VerificationMethodType};
 use crate::{Service, VerificationMethod};
 use anchor_lang::prelude::*;
 use anchor_lang::{AccountDeserialize, AccountSerialize, Owner};
-use borsh::BorshDeserialize;
+use borsh::{BorshDeserialize, BorshSerialize};
 use num_traits::*;
 use std::str::FromStr;
 

@@ -12,7 +12,7 @@ jobs:
     strategy:
       matrix:
         rust: ['stable']
-        solana: ['v1.14.7']
+        solana: ['v1.17.25']
         os: [ubuntu-latest]
 
     steps:
